@@ -28,9 +28,9 @@ Outputs:
 
 Time Complexity:
 
-`O(2^n)`
+`O((4^n)/n^(1/2))`
 
-Here their would be exponential growth relative to n for the backtracking algorithm in the worst case.
+Here their would be exponential growth relative to n for the backtracking.
 
 ### Problem: 3 [Group Anagrams](group_anagrams.py)
 
@@ -46,4 +46,4 @@ Time Complexity:
 
 `O(m * n log(n))`
 
-Here m is the number of strings in list and n is the average length each string to be sorted.
+Here m is the number of strings in list and n is the average length of each string to be sorted.
