@@ -26,7 +26,9 @@ def gen_paren(n :int) -> List[str]:
                of n pairs of parentheses.
     """
 
+    # Stores an individual valid parenthesis combination
     stack = []
+    # Appends all the valid combinations from the stack
     res = []
 
     def backtrack(open_count :int, closed_count :int):
